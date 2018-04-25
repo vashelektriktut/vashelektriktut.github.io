@@ -3,7 +3,7 @@
     var that = $(event.target); // получаем ссылку на источник события - форму #contact-form            
     $.ajax({ // отправляем данные          
         // URL развернутого скрипта Google Apps Script
-        url: 'https://script.google.com/macros/s/AKfycby0rrgx4hXDX8-FIwGLJb1tMMqgH4TKMtImUOxvwg/exec',
+        url: 'https://script.google.com/macros/s/AKfycbz7GcbYnZGb2Y7rgVfrjZxbtXfRyFnIi8WsWfC_6vc-fQFJlFdI/exec',
         data: $(this).serialize(), // собираем запрос
         jsonp: 'cb', // имя параметра запроса
         jsonpCallback: 'bingo', // имя функции
